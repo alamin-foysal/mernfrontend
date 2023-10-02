@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  .navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+    /*box-shadow: 0px 5px 6px 0px rgb(41, 37, 48);*/
+  }
+  
+  .brandname{
+    height: 45px;
+    padding:5px;
+  }
+  .brandname .logo{
+    padding: 5px;
+    color: #76d8d8;
+    background-color: #EBA754;
+    text-decoration: none;
+    border-radius: 10px 0px 10px 0px ;
+    font-style: italic;
+    font-size: 18px;
+  }
+
+
+  .night {
+    box-sizing: border-box;
+    color: #76d8d8;
+    padding: 5px;
+    cursor: pointer;
+   
+  }
+  
+
+  
+  .menu-icon {
+    cursor: pointer;
+    display: none;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50%;
+    margin-top: 20px;
+  }
+  
+  .a {
+    color: rgb(10, 189, 174);
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    cursor: pointer;
+  
+  }
+  
+  .a:hover {
+    color: rgb(32, 27, 30);
+    background: #EBA754;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-decoration-color: red;
+    border-radius: 40px 0px 30px 0px;
+    text-decoration-style: double;
+  
+  }
+  .active{
+    border-bottom: 2px solid salmon;
+  }
+  
+  /*responsive navbar menue*/
+  @media all and (max-width:980px) {
+    lottie-player {
+      width: 100px;
+      height: 90px;
+      box-sizing: border-box;
+      padding: 2px;
+    }
+  
+    .navmenu {
+      overflow: hidden;
+    }
+  
+    .night {
+      margin-left: 50%;
+      cursor: pointer;
+    }
+  
+    .menu-icon {
+      cursor: pointer;
+      display: block;
+      box-sizing: border-box;
+      padding: 2px;
+      cursor: pointer;
+      z-index: 1;
+      position: relative;
+      top: 1px;
+      right: 3px;
+      bottom: 1px;
+      background-color: transparent;
+      border: 1px solid rgb(243, 100, 4);
+      border-radius: 20px 20px 0px 0px;
+    }
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    ul li {
+      list-style: none;
+      padding: 10px;
+      display: block;
+  
+    }
+  
+    .a {
+      color: aliceblue;
+      font-size: 20px;
+      padding: 13px 05px;
+      transition: all 0.5s linear;
+      text-decoration: none;
+      display: block;
+      cursor: pointer;
+    }
+  
+    .nave-menu {
+      width: 70%;
+      height: 85%;
+      text-align: center;
+      background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../public/photo/pizza carton3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0px;
+      right: -70%;
+      transition: all 0.4s linear;
+      border-radius: 2px;
+      margin: 0;
+    }
+  
+    .show{
+      right: 0%;
+    }
+  
+    .a:hover {
+      color: rgb(177, 24, 126);
+      background: rgb(34, 30, 30);
+      transition: all 0.5s linear;
+      text-decoration: none;
+    }
+  
+  }
+  
+  @media all and (max-width:769px) {
+    lottie-player {
+      width: 100px;
+      height: 90px;
+      box-sizing: border-box;
+      padding: 2px;
+    }
+  
+    .navmenu {
+      overflow: hidden;
+    }
+  
+    .night {
+      margin-left: 50%;
+      cursor: pointer;
+    }
+  
+    .menu-icon {
+      cursor: pointer;
+      display: block;
+      box-sizing: border-box;
+      padding: 2px;
+      cursor: pointer;
+      z-index: 1;
+      position: relative;
+      top: 1px;
+      right: 3px;
+      bottom: 1px;
+      background-color: transparent;
+      border: 1px solid rgb(243, 100, 4);
+      border-radius: 20px 20px 0px 0px;
+    }
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    ul li {
+      list-style: none;
+      padding: 10px;
+      display: block;
+  
+    }
+  
+    .a {
+      color: aliceblue;
+      font-size: 20px;
+      padding: 20px 15px;
+      transition: all 0.5s linear;
+      text-decoration: none;
+      display: block;
+      cursor: pointer;
+    }
+  
+    .nave-menu {
+      width: 70%;
+      height: 85%;
+      text-align: center;
+      background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../public/photo/pizza carton3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0px;
+      right: -70%;
+      transition: all 0.4s linear;
+      border-radius: 2px;
+      margin: 0;
+    }
+  
+    .show {
+      right: 0%;
+    }
+  
+    .a:hover {
+      color: rgb(177, 24, 126);
+      background: rgb(34, 30, 30);
+      transition: all 0.5s linear;
+      text-decoration: none;
+    }
+  
+  }
+  
+  @media all and (max-width:575px) {
+    lottie-player {
+      width: 50px;
+      height: 90px;
+      box-sizing: border-box;
+      padding: 1px;
+    }
+  
+    .navmenu {
+      overflow: hidden;
+    }
+  
+    .night {
+      margin-left: 50%;
+      cursor: pointer;
+    }
+  
+    .menu-icon {
+      cursor: pointer;
+      display: block;
+      box-sizing: border-box;
+      padding: 2px;
+      cursor: pointer;
+      z-index: 1;
+      position: relative;
+      top: 1px;
+      right: 3px;
+      bottom: 1px;
+      background-color: transparent;
+      border: 1px solid rgb(243, 100, 4);
+      border-radius: 20px 20px 0px 0px;
+    }
+  
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    ul li {
+      list-style: none;
+      padding: 10px;
+      display: block;
+  
+    }
+  
+    .a {
+      color: rgb(191, 209, 184);
+      font-size: 20px;
+      padding: 15px 15px;
+      transition: all 0.5s linear;
+      text-decoration: none;
+      display: block;
+      cursor: pointer;
+    }
+  
+    .nave-menu {
+      width: 70%;
+      height: 85%;
+      text-align: center;
+      background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../public/photo/pizza carton3.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: fixed;
+      top: 0px;
+      right: -70%;
+      transition: all 0.4s linear;
+      border-radius: 2px;
+      margin: 0;
+    }
+  
+    .show {
+      right: 0%;
+    }
+  
+    .a:hover {
+      color: rgb(177, 24, 126);
+      background: rgb(34, 30, 30);
+      transition: all 0.5s linear;
+      text-decoration: none;
+    }
+  
+  }
+  
+  @keyframes anima {
+    from {
+      margin-left: 5px;
+    }
+  
+    to {
+      margin-right: 05px;
+    }
+  
+  }
+  
+  ;
+  
+  @-webkit-keyframes anima {
+    from {
+      padding-left: 05px;
+    }
+  
+    to {
+      padding-right: 5px;
+    }
+  }
+  
+  ;
+  
+  
+  /*.................END Navbar....................*/
+
+  

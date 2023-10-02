@@ -1,0 +1,17 @@
+
+
+
+.icons_group{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.icon{
+    
+    padding: 4px;
+    color: chartreuse;
+    font-size: 40px;
+    cursor: pointer;
+}

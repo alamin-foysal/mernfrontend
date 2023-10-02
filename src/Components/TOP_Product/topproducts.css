@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* .card_main{
+    width:19rem;
+
+    border: .5rem solid salmon;
+} */
+.card img {
+  transition: all 0.5s linear;
+}
+
+.card:hover img {
+  transform: scale(1.2);
+}
+

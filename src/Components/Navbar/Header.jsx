@@ -64,8 +64,8 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li onClick={() => setClick(false)}>
-                    <NavLink className="a" to="/double">
-                      Double
+                    <NavLink className="a" to="/deshbord">
+                      Deshbord
                     </NavLink>
                   </li>
                   <li onClick={() => setClick(false)}>

@@ -4,6 +4,7 @@ import { banner } from "../../Api/coustomapi";
 import { BsDot } from "react-icons/bs";
 import "../Hero/hero.css";
 
+
 const Hero = () => {
   const [slide, setSlide] = useState([]);
   const [num, setNum] = useState(0);

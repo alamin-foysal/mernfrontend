@@ -13,7 +13,7 @@ const Hero = () => {
 
 
 const sliderfetching=async()=>{
-    const data=await fetch('https://adda4000.cyclic.cloud/api/slideone')
+    const data=await fetch('https://supershop.cyclic.cloud/api/slideone')
     const res=await data.json();
     setSlide(res)
    

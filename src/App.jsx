@@ -7,6 +7,7 @@ import Topdesh from "./Components/Top_pro_deshbord/Topdesh";
 import Sliderdesh from "./Components/Slider_deshbord/Sliderdesh";
 import { useState } from "react";
 
+
 function App() {
   const[loading,setLoading]=useState(true)
   setTimeout(()=>{
@@ -16,6 +17,7 @@ function App() {
     <>
     {
       loading?<div><h1 className="text-center mt-5">please wait a few mint....</h1></div>:<div>
+      
       <Routes>
         <Route path="/" element={<Myhome />} />
         <Route path="/product" element={<Product />} />

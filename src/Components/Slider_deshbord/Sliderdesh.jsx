@@ -26,9 +26,8 @@ const Sliderdesh = () => {
     input_1.current.value = "";
     input_2.current.value = "";
 
-    //fetch("http://localhost:4000/api/slideone", {
-      
-      fetch("https://adda4000.cyclic.cloud/api/slideone",{
+    //fetch("http://localhost:4000/api/slideone", {  
+      fetch("https://supershop.cyclic.cloud/api/slideone",{
       method: "POST",
       body: JSON.stringify(slidef),
       headers: {

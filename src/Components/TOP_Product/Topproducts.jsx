@@ -8,7 +8,7 @@ const Topproducts = () => {
 
   const topprodfetc = async () => {
     //const data = await fetch("http://localhost:4000/api/top-product");
-    const data = await fetch("https://adda4000.cyclic.cloud/api/top-product");
+    const data = await fetch("https://supershop.cyclic.cloud/api/top-product");
     const res = await data.json();
     setTop(res);
   };

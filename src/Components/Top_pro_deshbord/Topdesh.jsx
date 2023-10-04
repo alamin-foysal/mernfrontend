@@ -30,7 +30,7 @@ const Topdesh = () => {
     input_4.current.value = "";
     input_5.current.value = "";
 
-    fetch("https://adda4000.cyclic.cloud/api/top-product", {
+    fetch("https://supershop.cyclic.cloud/api/top-product", {
       method: "POST",
       body: JSON.stringify(slidef),
       headers: {
